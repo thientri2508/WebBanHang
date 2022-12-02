@@ -1,0 +1,293 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed',sans-serif,Arial,sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.left{
+    float: left;
+    height: 740px;
+    width: 16.5%;
+    background: white;
+    position: fixed;
+}
+.right{
+    float: right;
+    width: 84%;
+    background: #343a40;
+}
+.logo{
+    width: 94%;
+    height: 53px;
+    margin: auto;
+    color: #c2c7d0;
+    border-bottom: 1px ridge #e8e8e8;
+    line-height: 53px;
+}
+.profile{
+    color: #c2c7d0;
+    width: 94%;
+    height: 53px;
+    line-height: 53px;
+    margin: auto;
+    margin-top: 10px;
+    border-bottom: 1px ridge #e8e8e8;
+}
+.accordion {
+    background: white;
+    color: #444;
+    cursor: pointer;
+    width: 94%;
+    height: 55px;
+    line-height: 55px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: auto;
+    border-radius: 4px;
+    transition: 0.4s;
+  }
+  .active, .accordion:hover {
+    background: #ccc;
+  }
+  .panel {
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    width: 94%;
+    margin: auto;
+    margin-top: 5px;
+  }
+  .item_panel{
+    height: 45px;
+    line-height: 45px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding-left: 20px;
+  }
+  .item_panel:hover{
+    background: #ccc;
+  }
+  .accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  .active:after {
+    content: "\2796"; 
+  }
+  .icon_change{
+    margin-left: 11px;
+    cursor: pointer;
+  }
+  .icon_change:hover{
+    margin-left: 9px;
+    width: 28px;
+    height: 28px;
+  }
+  .icon_more{
+    margin-left: 27px;
+    cursor: pointer;
+  }
+  .icon_more:hover{
+    margin-left: 26px;
+    width: 28px;
+    height: 28px;
+  }
+  .icon_delete{
+    margin-left: 12px;
+    cursor: pointer;
+  }
+  .icon_delete:hover{
+    margin-left: 11px;
+    width: 28px;
+    height: 28px;
+  }
+  .detail_category{
+    margin-left: 50px; 
+    margin-top: 20px; 
+    width: 90%;
+  }
+  #delete{
+    position:absolute; 
+    width:100%; 
+    height:740px; 
+    background:rgba(0,0,0,0.6); 
+    display: none; 
+    z-index:5;
+  }
+  .titleSettingProduct{
+    width: 100%; 
+    background: white; 
+    height: 45px; 
+    line-height: 45px;
+    font-family: Tahoma;
+    margin-top: 30px;
+    font-size: 22px;
+    color: black;
+    padding-left: 50px;
+    font-weight: bold;
+  }
+  .image_list{
+    width: 100%;
+    height: 565px;
+    background: white;
+    margin-top: 20px;
+    border-radius: 4px;
+    overflow-y: scroll;
+  }
+  .image_item{
+    width: 200px; 
+    height: 320px;
+    margin-left: 50px;
+    margin-top: 20px;
+    float: left; 
+    cursor: pointer;
+    position: relative;
+  }
+  .note_image_item{
+    color: #000; 
+    font-weight: bold; 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 15px; 
+    font-family: monospace;
+  }
+  .setting{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 80%;
+    background: rgba(0,0,0,0.6); 
+    top: 0px;
+    display: none;
+  }
+  .amountProduct{
+    width: 110px;
+    height: 110px;
+    background: white;
+    color: black;
+    float: left;
+    margin-right: 33px;
+    border: #a3a3a3 1px solid;
+  }
+  .serverLogin{
+    font-family: 'Open Sans', sans-serif;
+    width:100%;
+    height:750px;
+    background:url(/storage/bann.jpg) no-repeat 0px 0px;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -ms-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    }
+    .main-w3layouts-agileinfo {
+        width: 30%;
+        margin: auto;
+      height:300px;
+        padding: 4em 2em;
+        background: rgba(255, 255, 255, 0.07);
+        -webkit-box-shadow: 0 6px 12px 0 rgb(37, 37, 37);
+        -moz-box-shadow: 0 6px 12px 0 rgb(37, 37, 37);
+        box-shadow: 0 6px 43px 0 rgba(0, 0, 0, 0.4);
+    }
+    .titleServer{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    height:180px;
+    line-height:180px;
+    margin: auto;
+    color: #fff;
+    letter-spacing: 9px;
+    text-shadow: 4px 4px 3px #000;
+    word-spacing: 4px;
+    font-weight: 500;
+    font-family: 'Josefin Slab', serif;
+    }
+    .ServerForm{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-top:-10px;
+    margin-bottom: 1.5em;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 4px #000;
+    }
+    .icon-w3 {
+        display: inline-block;
+        position: absolute;
+      right: 0px;
+        bottom: 0;
+        width: 53px;
+        height: 50px;
+        text-align: center;
+        background: #00c6d7;
+    }
+    .form-sub-w3{
+      position:relative;
+        margin-bottom: 20px;
+    }
+    .form-sub-w3-text{
+        width: 85%;
+        padding: 15px 66px 15px 19px;
+        text-align: left;
+        background-color: rgba(0, 0, 0, 0.16);
+        border: 0;
+        border-left: 2px solid #00c6d7;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        color: #fff;
+        outline: 0;
+        -webkit-box-shadow: 0 6px 12px 0 rgb(37, 37, 37);
+        -moz-box-shadow: 0 6px 12px 0 rgb(37, 37, 37);
+        box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.4);
+        font-family: 'Open Sans', sans-serif;
+    }
+    .icon-w3 i {
+        color: #ffffff;
+        font-size: 19px;
+        line-height: 49px;
+    }
+    .submit-agileits {
+        text-align: center;
+        margin-top: 2em;
+    }
+    .submit-agileits-submit {
+        text-align: center;
+        border: 0;
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: 600;
+        padding: 14px 90px;
+        background-color: rgba(0, 0, 0, 0.34);
+        border: 3px solid rgba(255, 255, 255, 0.43);
+        -webkit-box-shadow: 0 12px 32px 0 rgba(0, 0, 0, 0.71);
+        -moz-box-shadow: 0 12px 32px 0 rgba(0, 0, 0, 0.71);
+        box-shadow: 0 12px 32px 0 rgba(0, 0, 0, 0.71);
+        outline: none;
+        cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 1px;
+        transition: 0.5s ease-in-out;
+        -webkit-transition: 0.5s ease-in-out;
+        -moz-transition: 0.5s ease-in-out;
+        -o-transition: 0.5s ease-in-out;
+        -ms-transition: 0.5s ease-in-out;
+    }
+    .submit-agileits-submit:hover {
+        color: #ffffff;
+        border-color: #00c6d7;
+    }
+  
