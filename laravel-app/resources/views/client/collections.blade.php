@@ -77,7 +77,7 @@
                     ?>
                 </div>
                 <h5 style="font-size: 14px; font-weight: 700; color: #666; margin-top: 40px">SẢN PHẨM ĐÃ XEM</h5>
-                <hr style="width: 52%; position:absolute; right: 0px; top: 840px; border: 0.5px solid">
+                <hr style="width: 52%; position:absolute; right: 0px; top: 730px; border: 0.5px solid">
             </div>
         </div>
         <div style="width: 100%; height: 60px">
